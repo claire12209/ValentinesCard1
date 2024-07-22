@@ -1,4 +1,3 @@
-//yes = document.getElementById("yes");
 $( document ).ready(function() {
     
     var envelope = $('#envelope');

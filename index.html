@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang = "en">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <head>
     <meta charset = "UTF-8"/>
     <meta name = "viewport" content = "width=device-width, inital-scale = 1.0"/>
@@ -8,12 +8,22 @@
     <script src = "yes.js"></script>
     <title>My Valentine</title>
 </head>
-
-<body>
-    <p class = "message"> Will you be my Valentine?</p>
-    <img class = "heart" src = "Ag1.gif" alt = "rotating heart"/>
-    <div class = "button">
-        <input type = "button" value = "Yes" class = "yes" id = "yes" onclick = "window.location.replace('yes.html')">
-        <input type = "button" value = "No" class = "no" id = "no" onclick = "enlargeButton()">
+<div class="envlope-wrapper">
+  
+    <div id="envelope" class="close" style = "margin-top: -50px;">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter">
+            <div class="words line1">Darling</div>
+            <div class="words line2">I Love you and miss you!</div>
+            <div class="words line3">-Yours</div>
+            <div class="words line4"></div>
+        </div>
+        <div class="hearts">
+            <div class="heart a1"></div>
+            <div class="heart a2"></div>
+            <div class="heart a3"></div>
+        </div>
     </div>
-</body>
+</div>
+<div style = "color:aliceblue; font-style:italic; font-size: 30px">Click to Open!</div>

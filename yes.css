@@ -2,10 +2,12 @@ body{
     font-family: 'LucindaHandwriting', 'Lucida Sans', monospace;
     text-align :center;
     margin-top: 10%;
-    background-color: #fcb1de;
+    background-image: url(pngtree-fantasy-background-cloud-pink-image_2049810.jpg);
+    background-size:100%;
 
 
 }
+
 
 .message{
     font-size:30px;
